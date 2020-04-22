@@ -1,0 +1,108 @@
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: "Courier Prime", monospace;
+	font-weight: 500;
+}
+
+.container {
+	width: 320px;
+	height: 1080px;
+}
+
+#srtQueryData {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+img {
+	width: 320px;
+}
+
+#currenthp {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+#deaths {
+	position: absolute;
+	top: 5px;
+	right: 0px;
+	padding-right: 10px;
+}
+
+#igt {
+	position: absolute;
+	top: 127px;
+	width: 100%;
+	font-size: 44px;
+	text-align: center;
+	font-weight: 600;
+}
+
+#rank {
+	position: absolute;
+	font-size: 16px;
+	top: 165px;
+	padding-left: 10px;
+}
+
+#difficulty {
+	position: absolute;
+	font-size: 16px;
+	top: 165px;
+	right: 0px;
+	padding-right: 10px;
+}
+
+#darank {
+	position: absolute;
+	font-size: 16px;
+	top: 180px;
+	padding-left: 10px;
+}
+
+#score {
+	position: absolute;
+	font-size: 16px;
+	top: 180px;
+	right: 0px;
+	padding-right: 10px;
+}
+
+.enemyhp {
+	position: relative;
+	top: 62px;
+	left: -1px;
+	background: rgba(0, 0, 0, 0);
+	width: calc(320px - 8px);
+	border: rgba(60, 60, 60, 255) solid 2px;
+	height: 26px;
+}
+
+.enemyhpbar {
+	background: rgba(100, 0, 0, 255);
+	width: 100%;
+	height: 26px;
+}
+
+#currentenemyhp {
+	position: absolute;
+	top: 2px;
+	font-size: 22px;
+	color: red;
+	padding-left: 10px;
+	font-weight: 700;
+}
+
+#percentenemyhp {
+	position: absolute;
+	top: 2px;
+	right: 0px;
+	font-size: 22px;
+	color: red;
+	padding-right: 10px;
+	font-weight: 700;
+}
